@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'js_routes/version'
 
 Gem::Specification.new do |s|
-  s.name = %q{js-routes-zigexn}
+  s.name = %q{js-routes}
   s.version = JsRoutes::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["VietTH"]
+  s.authors = ["Bogdan Gusiev"]
   s.description = %q{Generates javascript file that defines all Rails named routes as javascript helpers}
-  s.email = %q{vietth@zigexn.vn}
+  s.email = %q{agresso@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt"
   ]
